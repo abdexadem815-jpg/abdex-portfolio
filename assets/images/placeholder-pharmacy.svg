@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="pharmBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="pharmGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#6d28d9"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#pharmBg)"/>
+  
+  <!-- Subtle Grid -->
+  <g stroke="#334155" stroke-width="1" opacity="0.4">
+    <line x1="100" y1="0" x2="100" y2="600"/>
+    <line x1="200" y1="0" x2="200" y2="600"/>
+    <line x1="300" y1="0" x2="300" y2="600"/>
+    <line x1="400" y1="0" x2="400" y2="600"/>
+    <line x1="500" y1="0" x2="500" y2="600"/>
+    <line x1="600" y1="0" x2="600" y2="600"/>
+    <line x1="700" y1="0" x2="700" y2="600"/>
+    <line x1="0" y1="100" x2="800" y2="100"/>
+    <line x1="0" y1="200" x2="800" y2="200"/>
+    <line x1="0" y1="300" x2="800" y2="300"/>
+    <line x1="0" y1="400" x2="800" y2="400"/>
+    <line x1="0" y1="500" x2="800" y2="500"/>
+  </g>
+
+  <!-- Pharmacy / Pill & Mortar Badge -->
+  <g transform="translate(400, 240)">
+    <circle r="70" fill="#1e293b" stroke="#8b5cf6" stroke-width="2" opacity="0.8"/>
+    <!-- Pill Capsule Icon -->
+    <g transform="rotate(-35)">
+      <rect x="-16" y="-36" width="32" height="72" rx="16" fill="none" stroke="url(#pharmGrad)" stroke-width="4"/>
+      <path d="M-16 0 h32" stroke="url(#pharmGrad)" stroke-width="3"/>
+      <path d="M-16 0 A 16 16 0 0 0 16 0 Z" fill="url(#pharmGrad)" opacity="0.4"/>
+    </g>
+  </g>
+
+  <!-- Title & Instructions -->
+  <text x="400" y="370" font-family="'Outfit', sans-serif" font-size="24" font-weight="700" fill="#f8fafc" text-anchor="middle" letter-spacing="1">
+    Pharmacy Management System
+  </text>
+  <text x="400" y="405" font-family="'DM Sans', sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle">
+    Add image: /assets/images/pharmacy-management-system.jpg
+  </text>
+
+  <!-- Placeholder Border Frame -->
+  <rect x="40" y="40" width="720" height="520" rx="8" fill="none" stroke="#475569" stroke-width="2" stroke-dasharray="8 8" opacity="0.6"/>
+</svg>

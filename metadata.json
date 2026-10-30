@@ -1,0 +1,6 @@
+{
+  "name": "ABDEX - Personal Developer Portfolio",
+  "description": "A polished, responsive personal developer portfolio for ABDEX inspired by the RockStar one-page design, featuring dark navy hero, about, services, filterable portfolio, and contact.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

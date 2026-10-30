@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <linearGradient id="patBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="patGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#patBg)"/>
+  
+  <!-- Subtle Grid -->
+  <g stroke="#334155" stroke-width="1" opacity="0.4">
+    <line x1="100" y1="0" x2="100" y2="600"/>
+    <line x1="200" y1="0" x2="200" y2="600"/>
+    <line x1="300" y1="0" x2="300" y2="600"/>
+    <line x1="400" y1="0" x2="400" y2="600"/>
+    <line x1="500" y1="0" x2="500" y2="600"/>
+    <line x1="600" y1="0" x2="600" y2="600"/>
+    <line x1="700" y1="0" x2="700" y2="600"/>
+    <line x1="0" y1="100" x2="800" y2="100"/>
+    <line x1="0" y1="200" x2="800" y2="200"/>
+    <line x1="0" y1="300" x2="800" y2="300"/>
+    <line x1="0" y1="400" x2="800" y2="400"/>
+    <line x1="0" y1="500" x2="800" y2="500"/>
+  </g>
+
+  <!-- Patient Registration / Clipboard Badge -->
+  <g transform="translate(400, 240)">
+    <circle r="70" fill="#1e293b" stroke="#10b981" stroke-width="2" opacity="0.8"/>
+    <!-- Clipboard / User ID Icon -->
+    <rect x="-24" y="-35" width="48" height="65" rx="5" fill="none" stroke="url(#patGrad)" stroke-width="4"/>
+    <line x1="-14" y1="-15" x2="14" y2="-15" stroke="url(#patGrad)" stroke-width="3" stroke-linecap="round"/>
+    <line x1="-14" y1="-2" x2="14" y2="-2" stroke="url(#patGrad)" stroke-width="3" stroke-linecap="round"/>
+    <line x1="-14" y1="11" x2="4" y2="11" stroke="url(#patGrad)" stroke-width="3" stroke-linecap="round"/>
+    <!-- Clip Top -->
+    <path d="M-10 -35 v-5 h20 v5" fill="none" stroke="url(#patGrad)" stroke-width="3"/>
+  </g>
+
+  <!-- Title & Instructions -->
+  <text x="400" y="370" font-family="'Outfit', sans-serif" font-size="24" font-weight="700" fill="#f8fafc" text-anchor="middle" letter-spacing="1">
+    Patient Registration System
+  </text>
+  <text x="400" y="405" font-family="'DM Sans', sans-serif" font-size="14" fill="#94a3b8" text-anchor="middle">
+    Add image: /assets/images/patient-registration-system.jpg
+  </text>
+
+  <!-- Placeholder Border Frame -->
+  <rect x="40" y="40" width="720" height="520" rx="8" fill="none" stroke="#475569" stroke-width="2" stroke-dasharray="8 8" opacity="0.6"/>
+</svg>
