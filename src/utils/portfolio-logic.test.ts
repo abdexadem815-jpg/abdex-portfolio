@@ -82,8 +82,8 @@ test('validateContactForm rejects empty submissions', () => {
 
 test('validateContactForm accepts valid submissions', () => {
   const res = validateContactForm({
-    fullName: 'Dr. Sarah Connor',
-    email: 'sarah@clinic.org',
+    fullName: 'Kemal Ahmed',
+    email: 'kemal.ahmed@example.com',
     message: 'Inquiring about deploying the Hospital Management System.',
   });
   assert.equal(res.isValid, true);

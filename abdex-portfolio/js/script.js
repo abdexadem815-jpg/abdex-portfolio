@@ -444,7 +444,7 @@ document.addEventListener('DOMContentLoaded', () => {
         hasError = true;
       } else if (!emailRegex.test(emailVal)) {
         if (emailError) {
-          emailError.textContent = 'Please provide a valid email format (e.g. name@example.com).';
+          emailError.textContent = 'Please provide a valid email format (e.g. kemal.ahmed@example.com).';
           emailError.classList.add('visible');
         }
         emailInput?.classList.add('has-error');
